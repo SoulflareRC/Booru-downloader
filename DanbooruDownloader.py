@@ -39,12 +39,12 @@ class DanbooruDownloader(object):
 # post = Post('205988')
 # post.dl_post('test',False,True)
 #
-# tags = ['pussy','1girl']
+# tags = ['1girl']
 # query = Query(tags)
 # query.query_page(1)
 # print(len(query.posts))
 # d = DanbooruDownloader()
-# d.dl_query(['pussy','arms_up'],1)
+# d.dl_query(['bangs','arms_up'],1)
 
 
 # query = Query(tags)
