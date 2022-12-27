@@ -91,6 +91,8 @@ class gradio_ui(object):
             q = Query_Danbooru(tags)
         elif self.mode == "yande.re":
             q = Query_Yandere(tags)
+        elif self.mode == "Sankaku":
+            q = Query_Sankaku(tags)
         print(q.max_page)
         q.score_filter = self.score_filter
         print(q.query_url)
@@ -158,7 +160,7 @@ class gradio_ui(object):
         return gr.Textbox().update(value=deepdanbooru_mode)
 
     def interface(self):
-        mode_list = gr.Dropdown(['Danbooru', 'yande.re','Sankaku'],value=self.mode)
+        mode_list = gr.Dropdown(['Danbooru', 'yande.re','Sankaku'],label="Booru",value=self.mode)
 
         tags_input = gr.Textbox(placeholder=f"Search {self.mode} Tags",
                                                 label="Tags(split by ',')")
@@ -166,7 +168,7 @@ class gradio_ui(object):
 
         preview_url = gr.HTML(interactive=False, label="Preview URL", value="None")
         get_preview = gr.Button(value="Get Preview")
-        configs = gr.CheckboxGroup(['Download Image', 'Download Tags'])
+        configs = gr.CheckboxGroup(['Download Image', 'Download Tags'],label='Download Options')
 
         max_page = gr.Number(value=self.max_pages, label="Max amount of downloaded pages")
 
