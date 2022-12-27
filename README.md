@@ -23,4 +23,4 @@ Get preview
 ![Download interface](assets/interface_preview.png)
 # Deepdanbooru Interface
 Deepdanbooru  
-![Download interface](assets/interface_dd_inference.png)
+![Download interface](assets/dd_inference.png)
