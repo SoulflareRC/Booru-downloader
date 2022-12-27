@@ -13,6 +13,4 @@ class SearchEngineBase(object):
         return [ tag for tag in self.taglist if tag.find(input)>=0 ]
 
 
-seb = SearchEngineBase('dictionary/danbooru_tags.txt')
-
 
