@@ -13,8 +13,9 @@ This tool allow users to scrape famous boorus with tag systems including
  # How to use  
  1. Clone this repository ```git clone git@github.com:SoulflareRC/gradio-danbooru-downloader.git```
  2. Enter the directory ```cd gradio-danbooru-downloader```
- 3. Run ui.py ```python ui.py```
- 4. Wait till gradio launches, go to http://127.0.0.1:8001/ in your browser
+ 3. Install dependencies ```pip install -r requirements.txt``` 
+ 4. Run ui.py ```python ui.py```
+ 5. Wait till gradio launches, go to http://127.0.0.1:8001/ in your browser
 
 #Download Interface
 Download  
