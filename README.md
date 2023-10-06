@@ -17,7 +17,7 @@ This tool allow users to scrape famous boorus with tag systems including
  4. Run ui.py ```python ui.py```
  5. Wait till gradio launches, go to http://127.0.0.1:8001/ in your browser
 
-#Download Interface
+# Download Interface
 Download  
 ![Download interface](assets/interface_dl.png)
 Get preview  
