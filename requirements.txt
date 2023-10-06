@@ -1,0 +1,7 @@
+requests
+bs4
+gradio 
+Pillow 
+deepdanbooru_onnx 
+numpy 
+validators
